@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+
+{% block content %}
+
+
+
+<div class="container bg-dark p-4 d-flex flex-wrap gap-3 justify-content-around">
+    {% for category in categories %}
+
+    <div class="card bg-info col-lg-4 col-md-4 col-sm-12" style="width: 18rem;">
+        <img src="{{ category.strCategoryThumb }}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h4>{{ category.idCategory }}</h4>
+            <h3 class="card-title">{{ category.strCategory }}</h3>
+            <h6 class="card-text">{{ category.strCategoryDescription | truncatewords:10 }}</h6>
+        </div>
+    </div>
+
+
+    {% endfor %}
+</div>
+
+
+
+
+
+
+{% endblock content %}

@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+
+{% block content %}
+
+
+
+<div class="row p-4 bg-dark">
+    <div class="col-md-6 text-center text-white p-lg-5">
+        <h1 class="text-info"><u>About us</u></h1>
+        <h6>
+            Welcome to Paradise Restaurant, where culinary excellence meets a warm, inviting ambiance. Established with
+            a
+            passion for delivering an unforgettable dining experience, Paradise Restaurant is a celebration of flavors,
+            culture, and hospitality. <br> <br>
+            Our journey began with a simple vision: to create a haven where food enthusiasts can savor exceptional
+            cuisine <br> <br>
+            crafted with love and expertise. Every dish on our menu tells a story—a tale of handpicked ingredients,
+            time-honored recipes, and innovative culinary techniques.
+            At Paradise, we take pride in our diverse menu, meticulously curated to cater to varied palates. From
+            tantalizing appetizers to sumptuous main courses and delightful desserts, each dish is a masterpiece
+            prepared by
+            our talented chefs, using the freshest and finest ingredients available. <br> <br>
+            But it's not just about the food; it's about the experience. Our restaurant embodies an ambiance that exudes
+            warmth and hospitality. Whether you're enjoying an intimate dinner for two, a family gathering, or a
+            celebration <br> <br>
+            with friends, our attentive staff is dedicated to ensuring your visit is nothing short of exceptional.
+            We believe in creating more than just a meal; we strive to create memories. Our commitment to quality,
+            impeccable service, and a passion for culinary excellence drives us every day. <br> <br>
+            Join us at Paradise Restaurant and embark on a gastronomic journey that tantalizes your taste buds and
+            leaves
+            you longing for more. We look forward to welcoming you to our slice of culinary paradise.
+
+
+        </h6>
+    </div>
+    <div class="col-md-6">
+        <div class="img-wrapper" style="margin-top: 100px; margin-left:170px">
+            <img class="img-fluid myImage" src="{% static 'image/me.jpg' %}" alt="" style="border-radius: 50%; width:300px;">
+        </div>
+        <h4 class="text-center text-warning pt-3"><i>CEO : David Kudrot</i></h4>
+    </div>
+</div>
+
+
+
+{% endblock content %}

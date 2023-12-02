@@ -1,0 +1,31 @@
+
+body{
+  background-color: black !important;
+}
+
+
+
+.myName{
+  color: #00f30c;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+
+
+.footer-part{
+    background-color: rgb(14, 7, 27);
+    color: white;
+  }
+  
+  .footer-content{
+    max-width: 70%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+
+  .wlc{
+    font-size: 2rem;
+    color: red !important;
+  }
